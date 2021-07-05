@@ -4,12 +4,11 @@ def solution(lottos, win_nums):
     zeroCount = 0
     scores = [6, 6, 5, 4, 3, 2, 1]
     for lotto in lottos:
-        for win_num in win_nums:
-            if lotto == 0:
-                zeroCount += 1
-                break
-            elif lotto == win_num:
-                count += 1
+        # 2중 반복문 보다 배열 안에 확인할 수 있으면 더 효율적으로 보임
+        if lotto in win_nums:
+            count += 1
+        if lotto == 0:
+            zeroCount += 1
 
     answer.append(scores[count + zeroCount])
     answer.append(scores[count])
