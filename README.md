@@ -12,9 +12,11 @@ Where can we perpare for the coding test?
 # Course
 - clear Programmers stage 1
 
+- Baekjoon get bronze 3
+
 - clear Programmers stage 2
 
-- Baekjoon + start Programmers stage 3
+- clear Programmers stage 3
 
 - Baekjoon get sliver 3
 
