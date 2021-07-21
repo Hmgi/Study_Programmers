@@ -1,0 +1,6 @@
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+F = int(input())
+print(min(A, B, C) + min(D, F) - 50)
