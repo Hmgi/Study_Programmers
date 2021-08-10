@@ -1,21 +1,21 @@
-n = int(input())
-data = list(map(int, input().split()))
+N = int(input())
+N_Weight = list(map(int, input().split()))
 
-m = int(input())
-weight = list(map(int, input().split()))
+Box = int(input())
+Box_Weight = list(map(int, input().split()))
 
 count = 0
-data = sorted(data, reverse=True)
-weight = sorted(weight, reverse=True)
+N_Weight.reverse()
+Box_Weight.remove()
 
-if data[0] < weight[0]:
+if N_Weight[0] < Box_Weight[0]:
     print(-1)
 else:
-    while len(weight) > 0:
-        for l in data:
-            for j in range(len(weight)):
-                if l >= weight[j]:
-                    weight.remove(weight[j])
+    while len(Box_Weight) > 0:
+        for i in N_Weight:
+            for j in range(len(Box_Weight)):
+                if i >= Box_Weight[j]:
+                    Box_Weight.remove(Box_Weight[j])
                     break
         count += 1
     print(count)
