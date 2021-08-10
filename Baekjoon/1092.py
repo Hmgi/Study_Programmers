@@ -5,8 +5,8 @@ Box = int(input())
 Box_Weight = list(map(int, input().split()))
 
 count = 0
-N_Weight.reverse()
-Box_Weight.remove()
+N_Weight.sort(reverse=True)
+Box_Weight.sort(reverse=True)
 
 if N_Weight[0] < Box_Weight[0]:
     print(-1)
