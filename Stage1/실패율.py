@@ -1,23 +1,39 @@
 def solution(N, stages):
     answer = []
-    count = 0
-    # 전체 플레이어 수
-    maxPlayer = len(stages)
-    stages.sort()
+    temp = []
+    user = len(stages)
 
-    while stages[0] == NULL:
-        RoundNumber = stages[0]
+    for i in range(1, N + 1):
+        fail = 0
+        for j in range(len(stages)):
+            if stages[j] == i:
+                fail += 1
+        if fail == 0:
+            temp.append(0)
+        else:
+            temp.append(fail / user)
+        user -= fail
 
-        for i in stages:
-            if i == RoundNumber:
-                count += 1
+    a = sorted(temp, reverse=True)
 
-        answer.append(count / len(stages))
-        stages.remove(RoundNumber)
-        print(stages[0])
+    for i in range(len(a)):
+        answer.append(temp.index(a[i]) + 1)
+        temp[temp.index(a[i])] = -1
 
     return answer
 
 
 print(solution(5, [2, 1, 2, 6, 2, 4, 3, 3]))
-print(solution(4, [4, 4, 4, 4, 4]))
+'''
+def solution(N, stages):
+    result = {}
+    denominator = len(stages)
+    for stage in range(1, N+1):
+        if denominator != 0:
+            count = stages.count(stage)
+            result[stage] = count / denominator
+            denominator -= count
+        else:
+            result[stage] = 0
+    return sorted(result, key=lambda x : result[x], reverse=True)
+'''
