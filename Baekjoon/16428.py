@@ -1,7 +1,6 @@
-A, B = map(int, input().split())
-if B < 0:
-    print(A//B + 1)
-    print(A - (B * (A//B + 1)))
-else:
-    print(A//B)
-    print(A - (B * (A//B)))
+a, b = map(int, input().split())
+c, d = divmod(a, b)
+if a != 0 and b < 0 and d != 0:
+    c, d = c + 1, d - b
+print(c)
+print(d)
