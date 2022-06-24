@@ -1,6 +1,6 @@
 import java.util.*;
 public class Main_1531 {
-    static int[][] arrs = new int[100][100];
+    static int[][] arrs = new int[101][101];
 
     static int down_x;
     static int down_y;
@@ -24,8 +24,8 @@ public class Main_1531 {
             checkQ();
         }
 
-        for(int i = 0; i < 100; i++){
-            for(int j = 0; j < 100; j++){
+        for(int i = 1; i <= 100; i++){
+            for(int j = 1; j <= 100; j++){
                 if(arrs[i][j] > m) answer++;
             }
         }
@@ -34,12 +34,13 @@ public class Main_1531 {
     }
 
     static public void initArr(){
-        for(int i = 0; i < 100; i++){
-            for(int j = 0; j < 100; j++){
+        for(int i = 1; i <= 100; i++){
+            for(int j = 1; j <= 100; j++){
                 arrs[i][j] = 0;
             }
         }
     }
+    
     static public void checkQ(){
         for(int i = down_y; i <= up_y; i++){
             for(int j = down_x; j  <= up_x; j++){
