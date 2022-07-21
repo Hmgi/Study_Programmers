@@ -4,7 +4,7 @@ Where can we perpare for the coding test?
 
 - [Programmers]
 - [Baekjoon]
-- [Solved.ac] // Baekjoon rank
+- [Solved.ac]
 
 # Language
 - Python
