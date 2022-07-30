@@ -12,23 +12,6 @@ Where can we perpare for the coding test?
 - JAVA
 
 
-# Course
-~~- clear Programmers stage 1 (end)~~
-
-~~- Baekjoon get bronze 3 (end)~~
-
-~~- Baekjoon get sliver 5 (end)~~
-
-- clear Programmers stage 2 (...ing) with Baekjoon get sliver 3
-
-- clear Programmers stage 3
-
-- solve samsung, kakako coding test
-
-- Baekjoon get gold 4
-
-
-
 [Programmers]: <https://programmers.co.kr/>
 [Baekjoon]: <https://www.acmicpc.net/>
 [Solved.ac]: <https://solved.ac/>
