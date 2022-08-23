@@ -9,7 +9,7 @@ Where can we perpare for the coding test?
 # Language
 - Python
 - SQL
-- JAVA
+- JAVA [main]
 
 
 [Programmers]: <https://programmers.co.kr/>
