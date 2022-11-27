@@ -1,6 +1,6 @@
 package Java;
 
-class Solution {
+class Solution_사각형 {
     public int solution(int[][] sizes){
         int min = 1;
         int max = 1;
@@ -27,7 +27,7 @@ class Solution {
 
 public class 최소직사각형{
     public static void main(String[] args){
-        Solution test = new Solution();
+        Solution_사각형 test = new Solution_사각형();
         int arr[][] = {{60,50},{30,70},{60, 30},{80, 40}};
         System.out.println(test.solution(arr));
     }

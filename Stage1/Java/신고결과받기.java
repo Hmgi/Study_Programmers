@@ -2,7 +2,7 @@ package Java;
 
 import java.util.*;
 
-class Solution {
+class Solution_신고결과 {
     public int[] solution(String[] id_list, String[] report, int k) {
         int[] answer = new int[id_list.length];
         Map<String, HashSet<String>> map = new HashMap<>();
@@ -35,7 +35,7 @@ class Solution {
 
 public class 신고결과받기 {
     public static void main(String[] args){
-        Solution s = new Solution();
+        Solution_신고결과 s = new Solution_신고결과();
         String[] id = {"muzi", "frodo", "apeach", "neo"};
         String[] report = {"muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"};
         int k = 2;

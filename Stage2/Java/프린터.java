@@ -3,7 +3,7 @@ package Java;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Solution {
+class Solution_프린터 {
     public int solution(int[] priorities, int location) {
         int answer = 0;
 
@@ -56,7 +56,7 @@ class Solution {
 
 public class 프린터 {
     public static void main(String[] args) {
-        Java.Solution s = new Java.Solution();
+        Solution_프린터 s = new Solution_프린터();
         int[] p1 = {2, 1, 3, 2};
         int l1 = 2;
         System.out.println(s.solution(p1, l1));   

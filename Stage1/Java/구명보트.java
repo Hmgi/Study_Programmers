@@ -2,7 +2,7 @@ package Java;
 
 import java.util.*;
 
-class Solution {
+class Solution_구명보트 {
     public int solution(int[] people, int limit) {
         int answer = 0;
 
@@ -21,8 +21,8 @@ class Solution {
 
 public class 구명보트 {
     public static void main(String[] args){
-        
-        Solution s = new Solution();
+
+        Solution_구명보트 s = new Solution_구명보트();
 
         int[] p1 = {70, 50, 80, 50};
         int l1 = 100;

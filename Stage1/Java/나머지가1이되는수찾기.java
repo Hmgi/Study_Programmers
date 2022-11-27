@@ -1,6 +1,6 @@
 package Java;
 
-class Solution {
+class Solution_나머지 {
     public int solution(int n) {
         int answer = 0;
 
@@ -17,7 +17,7 @@ class Solution {
 
 public class 나머지가1이되는수찾기 {
     public static void main(String[] args){
-        Solution s = new Solution();
+        Solution_나머지 s = new Solution_나머지();
         
         int t1 = 10;
         int t2 = 12;

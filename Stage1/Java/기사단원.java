@@ -13,14 +13,14 @@ public class 기사단원 {
         int l2 = 3;
         int p2 = 2;
         //result = 21
-        Solution s = new Solution();
+        Solution_기사단원 s = new Solution_기사단원();
 
         System.out.println(s.solution(n1, l1, p1));
         System.out.println(s.solution(n2, l2, p2));
     }
 }
 
-class Solution {
+class Solution_기사단원 {
     public int solution(int number, int limit, int power) {
         int answer = 0;
 

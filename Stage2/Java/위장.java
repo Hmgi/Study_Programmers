@@ -2,7 +2,7 @@ package Java;
 
 import java.util.*;
 
-class Solution {
+class Solution_위장 {
     public int solution(String[][] clothes) {
         
         Map<String, Integer> countClothes = new HashMap<>();
@@ -24,7 +24,7 @@ class Solution {
 
 public class 위장 {
     public static void main(String[] args){
-        Java.Solution s = new Java.Solution();
+        Solution_위장 s = new Solution_위장();
 
         String[][] t1 = {{"yellow_hat", "headgear"}, {"blue_sunglasses","eyewear"}, {"green_truban", "headgear"}};
         String[][] t2 = {{"crow_mask", "face"}, {"blue_sunglasses", "face"}, {"smoky_makeup", "face"}};

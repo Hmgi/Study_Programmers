@@ -1,6 +1,6 @@
 package Java;
 
-class Solution {
+class Solution_숫자더하기 {
     public int solution(int[] numbers) {
         int answer = 45;
 
@@ -14,7 +14,7 @@ class Solution {
 
 public class 없는숫자더하기 {
     public static void main(String[] args){
-        Solution s = new Solution();
+        Solution_숫자더하기 s = new Solution_숫자더하기();
 
         int[] t1 = {1, 2, 3, 4, 6, 7, 8, 0};
 
