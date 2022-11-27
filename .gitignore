@@ -1,6 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
+*.Python[cod]
 *$py.class
 
 # C extensions
@@ -47,7 +47,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
-*.py,cover
+*.Python,cover
 .hypothesis/
 .pytest_cache/
 
@@ -99,7 +99,7 @@ celerybeat-schedule
 celerybeat.pid
 
 # SageMath parsed files
-*.sage.py
+*.sage.Python
 
 # Environments
 .env
