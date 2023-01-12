@@ -1,5 +1,7 @@
 package Java;
 
+import java.util.Arrays;
+
 public class 파괴되지않은건물 {
     public static void main(String[] args) {
         int[][] board = {{5,5,5,5,5}, {5,5,5,5,5}, {5,5,5,5,5}, {5,5,5,5,5}};
@@ -38,6 +40,8 @@ class Solution_건물 {
             }
         }
 
+        System.out.println(Arrays.deepToString(s));
+
         for(int i = 0; i < n+1; i++){
             int sum = 0;
             for(int j = 0; j < m+1; j++){
@@ -46,6 +50,8 @@ class Solution_건물 {
             }
         }
 
+        System.out.println(Arrays.deepToString(s));
+
         for(int i = 0; i<m; i++){
             int sum = 0;
             for(int j = 0; j<n; j++){
@@ -53,6 +59,8 @@ class Solution_건물 {
                 s[j][i] = sum;
             }
         }
+
+        System.out.println(Arrays.deepToString(s));
 
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
